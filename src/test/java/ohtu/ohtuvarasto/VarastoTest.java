@@ -90,6 +90,7 @@ public class VarastoTest {
         assertEquals(0, varasto.otaVarastosta(3), vertailuTarkkuus);
     }
 
+    //penis
     @Test
     public void konstr() {
         varasto = new Varasto(-1);
