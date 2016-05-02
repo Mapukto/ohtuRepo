@@ -81,7 +81,7 @@ public class TennisGame {
 
     private String etuTaiVoitto() {
         String score;
-        int pisteErotus = m_score1-m_score2;
+        int pisteErotus = m_score1-m_score2;es
         if (pisteErotus==1) score ="Advantage player1";
         else if (pisteErotus == -1) score ="Advantage player2";
         else if (pisteErotus>=2) score = "Win for player1";
